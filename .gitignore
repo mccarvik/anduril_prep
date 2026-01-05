@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+# *.csv
+# *.mat
+# *.xls
+# *.xlsx
+
+# Images
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
+
+# Archives and compressed files
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+
+# PDFs
+# *.pdf
+
+# Large datasets
+pytorch_for_deeplearning/basics/data_management/module_1_3/flower_data/
+pytorch_for_deeplearning/basics/data_management/module_1_3/corrupted_flower_data/
+pytorch_for_deeplearning/basics/data_management/flower_data/
+pytorch_for_deeplearning/basics/pytorch_workflow/data/MNIST/
+pytorch_for_deeplearning/basics/nn_components/build_nn/cifar_100/
+pytorch_for_deeplearning/basics/nn_components/debug_nn/dataset/
+pytorch_for_deeplearning/basics/nn_components/debug_nn/module_1_4/dataset/
+pytorch_for_deeplearning/deep_learning_notebooks/data/
+pytorch_for_deeplearning/techniques/hyperparameters/hyperp/module_2_1_1/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/hyperp/module_2_1_1/cifar10_3class_imbalanced/
+pytorch_for_deeplearning/techniques/hyperparameters/hyperp/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/tuning/module_2_1_2/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/apple_ad_subset/
+pytorch_for_deeplearning/techniques/hyperparameters/efficiency/module_2_1_4/cifar10/
+
+# All zips folder
+pytorch_for_deeplearning/zips/
+
+# All PDFs folder
+# pytorch_for_deeplearning/pdfs/
+
+# CAD files
+*.SLDPRT
+*.STEP
+*.STL
+
+# Logs
+*.log
+npm-debug.log*
+
