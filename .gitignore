@@ -49,6 +49,7 @@ pytorch_for_deeplearning/techniques/hyperparameters/tuning/module_2_1_2/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/apple_ad_subset/
 pytorch_for_deeplearning/techniques/hyperparameters/efficiency/module_2_1_4/cifar10/
+pytorch_for_deeplearning/techniques/tvision/intro_to_t/module_2_2_1/oxford3pet_data/
 
 # All zips folder
 pytorch_for_deeplearning/zips/
