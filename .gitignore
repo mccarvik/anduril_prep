@@ -53,6 +53,14 @@ pytorch_for_deeplearning/techniques/tvision/intro_to_t/module_2_2_1/oxford3pet_d
 pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/pytorch_datasets/
 pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/tiny_fruit_and_vegetable/
 pytorch_for_deeplearning/techniques/tvision/tv_learning/module_2_2_3/images/
+pytorch_for_deeplearning/techniques/tvision/transfer/module/EMNIST_data/
+
+# Module 3_1_1 data files
+pytorch_for_deeplearning/zips/module_3_1_1/change_samples/
+pytorch_for_deeplearning/zips/module_3_1_1/levir_cd_plus_simulated/
+pytorch_for_deeplearning/zips/module_3_1_1/pretrained_efficientnet_weights/
+pytorch_for_deeplearning/zips/module_3_1_1/signature_samples/
+pytorch_for_deeplearning/zips/module_3_1_1/Signature_Verification_v5_v11/
 
 # All zips folder
 pytorch_for_deeplearning/zips/
