@@ -54,6 +54,7 @@ pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/pytorch_dat
 pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/tiny_fruit_and_vegetable/
 pytorch_for_deeplearning/techniques/tvision/tv_learning/module_2_2_3/images/
 pytorch_for_deeplearning/techniques/tvision/transfer/module/EMNIST_data/
+pytorch_for_deeplearning/techniques/tvision/transfer/emnist_data/
 
 # Module 3_1_1 data files
 pytorch_for_deeplearning/zips/module_3_1_1/change_samples/

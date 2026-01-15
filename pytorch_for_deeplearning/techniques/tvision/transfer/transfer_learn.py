@@ -24,3 +24,18 @@ emnist_transformation = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 ])
 
+
+# Create the training and validation DataLoaders.
+train_loader, val_loader = helper_utils.create_emnist_dataloaders(
+    batch_size=32,
+    transform=emnist_transformation  # Apply the defined transformations
+)
+# Load the pre-trained MobileNetV3 model and set it to evaluation mode for inference
+mobilenet_model = tv_models.mobilenet_v3_small(weights='IMAGENET1K_V1').eval()
+# Load the mapping of class indices to human-readable names from the JSON file
+class_names = helper_utils.load_imagenet_classes('./imagenet_class_index.json')
+# Visualize the model's predictions on the validation images
+helper_utils.show_predictions(mobilenet_model, val_loader, device, class_names)
+
+# Instantiate the ResNet18 model architecture and load the selected weights
+resnet18_model = tv_models.resnet18(weights='IMAGENET1K_V1')
