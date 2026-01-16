@@ -39,3 +39,11 @@ helper_utils.show_predictions(mobilenet_model, val_loader, device, class_names)
 
 # Instantiate the ResNet18 model architecture and load the selected weights
 resnet18_model = tv_models.resnet18(weights='IMAGENET1K_V1')
+
+# ### Uncomment and execute the line below if you wish print the model's architecture.
+print(resnet18_model)
+
+# Iterate over each parameter in the resnet18_model
+for param in resnet18_model.parameters():
+    # Set the requires_grad attribute of each parameter to False to freeze it
+    param.requires_grad = False
