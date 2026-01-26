@@ -96,3 +96,45 @@ mobilenet_model.classifier[-1] = new_classifier
 print("Model's New Output Layer:")
 print(mobilenet_model.classifier[-1])
 
+
+# Define loss and optimizer
+loss_function = torch.nn.CrossEntropyLoss()
+# Only optimize the parameters that require gradients for mobilenet_model
+optimizer = torch.optim.SGD(filter(lambda p: p.requires_grad, 
+                                   mobilenet_model.parameters()),
+                            lr=0.001)
+
+# Number of epochs for new classifier head training
+num_epochs = 1
+
+# Start the training.
+trained_model = helper_utils.training_loop(
+    model=mobilenet_model, 
+    trainloader=train_loader, 
+    valloader=val_loader, 
+    loss_function=loss_function, 
+    optimizer=optimizer, 
+    num_epochs=num_epochs, 
+    device=device
+)
+
+# Define a list of class names for the EMNIST digits (0-9).
+emnist_class_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# Visualize the model's predictions on the validation images
+helper_utils.show_predictions(trained_model, val_loader, device, emnist_class_names)
+
+# ### Uncomment and execute the line below if you wish to print the model's architecture.
+print(trained_model)
+# The model from the previous training stage
+fine_tune_model = trained_model
+# Unfreeze the parameters of the last block in the 'features' section
+for param in fine_tune_model.features[12].parameters():
+    param.requires_grad = True
+
+# Verify that the parameters of an early block (e.g., features[0]) are frozen
+print(f"Parameters in features[0] are frozen:       {not fine_tune_model.features[0][0].weight.requires_grad}")
+# Verify that the parameters of a late block (e.g., features[12]) are now unfrozen
+print(f"Parameters in features[12] are unfrozen:    {fine_tune_model.features[12][0].weight.requires_grad}")
+# Verify that the classifier head remains unfrozen and trainable
+print(f"Parameters in the classifier are unfrozen:  {fine_tune_model.classifier[-1].weight.requires_grad}")
+
