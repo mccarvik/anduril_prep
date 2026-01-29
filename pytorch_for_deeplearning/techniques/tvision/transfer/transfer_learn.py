@@ -138,3 +138,62 @@ print(f"Parameters in features[12] are unfrozen:    {fine_tune_model.features[12
 # Verify that the classifier head remains unfrozen and trainable
 print(f"Parameters in the classifier are unfrozen:  {fine_tune_model.classifier[-1].weight.requires_grad}")
 
+
+# Create a new optimizer that targets all trainable parameters
+optimizer = torch.optim.SGD(
+    filter(lambda p: p.requires_grad, fine_tune_model.parameters()),
+    lr=1e-5  # A new, lower learning rate for fine-tuning
+)
+
+# Number of epochs for the fine-tuning stage
+num_epochs_fine_tune = 1
+
+# Continue training the model
+fine_tune_trained_model = helper_utils.training_loop(
+    model=fine_tune_model,
+    trainloader=train_loader,
+    valloader=val_loader,
+    loss_function=loss_function,
+    optimizer=optimizer,
+    num_epochs=num_epochs_fine_tune,
+    device=device
+)
+
+# ### Uncomment and execute the line below if you wish to visualize predictions
+
+# # Visualize the model's predictions on the validation images
+helper_utils.show_predictions(fine_tune_trained_model, val_loader, device, emnist_class_names)
+
+# The model from the previous fine-tuning stage
+full_retrain_model = fine_tune_trained_model
+
+# Unfreeze all parameters in the model
+for param in full_retrain_model.parameters():
+    param.requires_grad = True
+# Verify that an early layer is now unfrozen and trainable
+print(f"Parameters in features[0] are unfrozen: {full_retrain_model.features[0][0].weight.requires_grad}")
+
+# The optimizer now targets all parameters in the model
+optimizer = torch.optim.SGD(
+    full_retrain_model.parameters(),
+    lr=1e-4
+)
+
+# Number of epochs for the full retraining stage
+num_epochs_full_retrain = 1
+
+# Continue training the entire model
+final_model = helper_utils.training_loop(
+    model=full_retrain_model,
+    trainloader=train_loader,
+    valloader=val_loader,
+    loss_function=loss_function,
+    optimizer=optimizer,
+    num_epochs=num_epochs_full_retrain,
+    device=device
+)
+
+# ### Uncomment and execute the line below if you wish to visualize predictions
+
+# # Visualize the model's predictions on the validation images
+helper_utils.show_predictions(final_model, val_loader, device, emnist_class_names)
