@@ -41,6 +41,9 @@ pytorch_for_deeplearning/basics/data_management/plants_dataset/
 pytorch_for_deeplearning/basics/pytorch_workflow/data/MNIST/
 pytorch_for_deeplearning/basics/pytorch_workflow/EMNIST_data/
 pytorch_for_deeplearning/basics/nn_components/build_nn/cifar_100/
+pytorch_for_deeplearning/basics/nn_components/graded/cifar_100/
+pytorch_for_deeplearning/basics/nn_components/graded/c2_preview/
+pytorch_for_deeplearning/basics/nn_components/graded/nb_image/
 pytorch_for_deeplearning/basics/nn_components/debug_nn/dataset/
 pytorch_for_deeplearning/basics/nn_components/debug_nn/module_1_4/dataset/
 pytorch_for_deeplearning/basics/pytorch_basics/*.csv
