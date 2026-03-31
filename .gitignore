@@ -58,12 +58,15 @@ pytorch_for_deeplearning/techniques/hyperparameters/tuning/module_2_1_2/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/apple_ad_subset/
 pytorch_for_deeplearning/techniques/hyperparameters/efficiency/module_2_1_4/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/graded/AIvsReal_sampled/
+pytorch_for_deeplearning/techniques/hyperparameters/graded/archive_*/
 pytorch_for_deeplearning/techniques/tvision/intro_to_t/module_2_2_1/oxford3pet_data/
 pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/pytorch_datasets/
 pytorch_for_deeplearning/techniques/tvision/datasets_tv/module_2_2_2/tiny_fruit_and_vegetable/
 pytorch_for_deeplearning/techniques/tvision/tv_learning/module_2_2_3/images/
 pytorch_for_deeplearning/techniques/tvision/transfer/module/EMNIST_data/
 pytorch_for_deeplearning/techniques/tvision/transfer/emnist_data/
+pytorch_for_deeplearning/techniques/tvision/graded/AIvsReal_sampled/
 
 # Module 3_1_1 data files
 pytorch_for_deeplearning/zips/module_3_1_1/change_samples/
