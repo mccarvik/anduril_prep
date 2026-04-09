@@ -69,14 +69,14 @@ pytorch_for_deeplearning/techniques/tvision/transfer/emnist_data/
 pytorch_for_deeplearning/techniques/tvision/graded/AIvsReal_sampled/
 
 # Module 3_1_1 data files
-pytorch_for_deeplearning/zips/module_3_1_1/change_samples/
-pytorch_for_deeplearning/zips/module_3_1_1/levir_cd_plus_simulated/
-pytorch_for_deeplearning/zips/module_3_1_1/pretrained_efficientnet_weights/
-pytorch_for_deeplearning/zips/module_3_1_1/signature_samples/
-pytorch_for_deeplearning/zips/module_3_1_1/Signature_Verification_v5_v11/
+pytorch_for_deeplearning/archive/zips/module_3_1_1/change_samples/
+pytorch_for_deeplearning/archive/zips/module_3_1_1/levir_cd_plus_simulated/
+pytorch_for_deeplearning/archive/zips/module_3_1_1/pretrained_efficientnet_weights/
+pytorch_for_deeplearning/archive/zips/module_3_1_1/signature_samples/
+pytorch_for_deeplearning/archive/zips/module_3_1_1/Signature_Verification_v5_v11/
 
-# All zips folder
-pytorch_for_deeplearning/zips/
+# All zips folder (under archive)
+# pytorch_for_deeplearning/archive/zips/
 
 # All PDFs folder
 # pytorch_for_deeplearning/pdfs/
