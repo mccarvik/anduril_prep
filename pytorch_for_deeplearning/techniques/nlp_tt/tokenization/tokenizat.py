@@ -135,3 +135,47 @@ print("\nToken IDs:", encoded_inputs['input_ids'])
 # Print unique tokens from your sentences mapped to their unique IDs 
 helper_utils.print_unique_token_id_mappings(tokens, encoded_inputs['input_ids'])
 
+
+### Add your sentence(s) here
+sentences = [
+    "be all you can be",
+    # "",
+    # "",
+]
+
+
+# Tokenize the sentences and encode them
+encoded_inputs = tokenizer(sentences, padding=True, 
+                           truncation=True, return_tensors='pt')
+
+# To see the tokens for each input (helpful for understanding the output)
+tokens = [tokenizer.convert_ids_to_tokens(ids)
+          for ids in encoded_inputs["input_ids"]]
+
+# Get the model's vocabulary (mapping from tokens to IDs)
+word_index = tokenizer.get_vocab()
+
+# Print the human-readable `tokens` for each sentence
+print("Tokens:", tokens)
+
+print("\nToken IDs:", encoded_inputs['input_ids'])
+
+# Print unique tokens from your sentences mapped to their unique IDs 
+helper_utils.print_unique_token_id_mappings(tokens, encoded_inputs['input_ids'])
+
+
+
+# A list of words that are likely "Out-of-Vocabulary" (OOV)
+oov_words = ["Tokenization", "HuggingFace", "unintelligible"]
+
+print("--- Subword Tokenization Example ---")
+
+# Iterate through the words and show how they are tokenized
+for word in oov_words:
+    # The .tokenize() method is a direct way to see the subword breakdown
+    subwords = tokenizer.tokenize(word)
+    
+    # Print the results
+    print(f"Original word: '{word}'")
+    print(f"Subword tokens: {subwords}\n")
+
