@@ -90,3 +90,7 @@ pytorch_for_deeplearning/archive/zips/module_3_1_1/Signature_Verification_v5_v11
 *.log
 npm-debug.log*
 
+# NLP embeddings artifacts
+pytorch_for_deeplearning/techniques/nlp_tt/embeddings/glove_data/
+pytorch_for_deeplearning/techniques/nlp_tt/embeddings/bert_model/
+
