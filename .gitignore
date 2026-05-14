@@ -94,3 +94,8 @@ npm-debug.log*
 pytorch_for_deeplearning/techniques/nlp_tt/embeddings/glove_data/
 pytorch_for_deeplearning/techniques/nlp_tt/embeddings/bert_model/
 
+# Simple text classifier recipes data (CSV / Excel)
+pytorch_for_deeplearning/techniques/nlp_tt/simple_text_classifier/recipes_fruit_veg.csv
+pytorch_for_deeplearning/techniques/nlp_tt/simple_text_classifier/recipes*.xlsx
+pytorch_for_deeplearning/techniques/nlp_tt/simple_text_classifier/recipes*.xls
+
