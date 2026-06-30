@@ -67,6 +67,9 @@ pytorch_for_deeplearning/techniques/tvision/tv_learning/module_2_2_3/images/
 pytorch_for_deeplearning/techniques/tvision/transfer/module/EMNIST_data/
 pytorch_for_deeplearning/techniques/tvision/transfer/emnist_data/
 pytorch_for_deeplearning/techniques/tvision/graded/AIvsReal_sampled/
+pytorch_for_deeplearning/techniques/efficient_train/optum-data/cifar10_data/
+pytorch_for_deeplearning/techniques/efficient_train/lightning/data/
+pytorch_for_deeplearning/techniques/efficient_train/advanced_lightning/levir_cd_plus_simulated/
 
 # Module 3_1_1 data files
 pytorch_for_deeplearning/archive/zips/module_3_1_1/change_samples/
@@ -74,6 +77,18 @@ pytorch_for_deeplearning/archive/zips/module_3_1_1/levir_cd_plus_simulated/
 pytorch_for_deeplearning/archive/zips/module_3_1_1/pretrained_efficientnet_weights/
 pytorch_for_deeplearning/archive/zips/module_3_1_1/signature_samples/
 pytorch_for_deeplearning/archive/zips/module_3_1_1/Signature_Verification_v5_v11/
+
+# Module 3 custom_arch data files
+pytorch_for_deeplearning/advanced/custom_arch/assignment/chest_xray/
+pytorch_for_deeplearning/advanced/custom_arch/assignment/clothing-dataset-small/
+pytorch_for_deeplearning/advanced/custom_arch/assignment/resnet18_chest_xray_classifier_weights.pth
+pytorch_for_deeplearning/advanced/custom_arch/applied_similarity/levir_cd_plus_simulated/
+pytorch_for_deeplearning/advanced/custom_arch/applied_similarity/pretrained_efficientnet_weights/
+pytorch_for_deeplearning/advanced/custom_arch/applied_similarity/saved_models/
+pytorch_for_deeplearning/advanced/custom_arch/densenet/UCMerced_LandUse/
+pytorch_for_deeplearning/advanced/custom_arch/densenet/pretrained_densenet_weights/
+pytorch_for_deeplearning/advanced/custom_arch/densenet/saved_models/
+pytorch_for_deeplearning/advanced/custom_arch/unlocking_network/Aerial_Landscapes/
 
 # All zips folder (under archive)
 # pytorch_for_deeplearning/archive/zips/
