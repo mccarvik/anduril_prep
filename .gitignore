@@ -58,6 +58,7 @@ pytorch_for_deeplearning/techniques/hyperparameters/tuning/module_2_1_2/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/optima_tuning/module_2_1_3/apple_ad_subset/
 pytorch_for_deeplearning/techniques/hyperparameters/efficiency/module_2_1_4/cifar10/
+pytorch_for_deeplearning/techniques/hyperparameters/efficiency/cifar10/
 pytorch_for_deeplearning/techniques/hyperparameters/graded/AIvsReal_sampled/
 pytorch_for_deeplearning/techniques/hyperparameters/graded/archive_*/
 pytorch_for_deeplearning/techniques/tvision/intro_to_t/module_2_2_1/oxford3pet_data/
@@ -70,6 +71,9 @@ pytorch_for_deeplearning/techniques/tvision/graded/AIvsReal_sampled/
 pytorch_for_deeplearning/techniques/efficient_train/optum-data/cifar10_data/
 pytorch_for_deeplearning/techniques/efficient_train/lightning/data/
 pytorch_for_deeplearning/techniques/efficient_train/advanced_lightning/levir_cd_plus_simulated/
+pytorch_for_deeplearning/techniques/efficient_train/assignment/chest_xray/
+pytorch_for_deeplearning/techniques/efficient_train/assignment/resnet18_chest_xray_classifier_weights.pth
+pytorch_for_deeplearning/techniques/efficient_train/advanced_lightning_opt/data/
 
 # Module 3_1_1 data files
 pytorch_for_deeplearning/archive/zips/module_3_1_1/change_samples/
