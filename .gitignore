@@ -151,5 +151,5 @@ pytorch_for_deeplearning/techniques/nlp_tt/finetune_pretrain/recipes*.xlsx
 pytorch_for_deeplearning/techniques/nlp_tt/finetune_pretrain/recipes*.xls
 
 # Finetune / pretrain local DistilBERT weights
-pytorch_for_deeplearning/techniques/nlp_tt/finetune_pretrain/distilbert-local-base/
+pytorch_for_deeplearning/techniques/nlp_tt/finetune_pretrain/**/distilbert-local-base/
 
