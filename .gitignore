@@ -78,7 +78,7 @@ pytorch_for_deeplearning/archive/zips/module_3_1_1/pretrained_efficientnet_weigh
 pytorch_for_deeplearning/archive/zips/module_3_1_1/signature_samples/
 pytorch_for_deeplearning/archive/zips/module_3_1_1/Signature_Verification_v5_v11/
 
-# Module 3 custom_arch data files
+# Module 3 advanced — custom_arch data & weights
 pytorch_for_deeplearning/advanced/custom_arch/assignment/chest_xray/
 pytorch_for_deeplearning/advanced/custom_arch/assignment/clothing-dataset-small/
 pytorch_for_deeplearning/advanced/custom_arch/assignment/resnet18_chest_xray_classifier_weights.pth
@@ -89,6 +89,37 @@ pytorch_for_deeplearning/advanced/custom_arch/densenet/UCMerced_LandUse/
 pytorch_for_deeplearning/advanced/custom_arch/densenet/pretrained_densenet_weights/
 pytorch_for_deeplearning/advanced/custom_arch/densenet/saved_models/
 pytorch_for_deeplearning/advanced/custom_arch/unlocking_network/Aerial_Landscapes/
+
+# Module 3 advanced — nlp_transformers data
+pytorch_for_deeplearning/advanced/nlp_transformers/assign3/languages/
+pytorch_for_deeplearning/advanced/nlp_transformers/build_trans/imdb_data.zip
+pytorch_for_deeplearning/advanced/nlp_transformers/build_trans/imdb_data/
+
+# Module 3 advanced — spec_approach models & weights
+pytorch_for_deeplearning/advanced/spec_approach/stab_diff/models/
+pytorch_for_deeplearning/advanced/spec_approach/assign_2/models/
+pytorch_for_deeplearning/advanced/spec_approach/saliency_CAM/pretrained_model/
+pytorch_for_deeplearning/advanced/spec_approach/viz_interp/pretrained_model/
+
+# Module 3 advanced — prepare_models data & weights
+pytorch_for_deeplearning/advanced/prepare_models/assign4/data/
+pytorch_for_deeplearning/advanced/prepare_models/assign4/street_classifier_weights.pt
+pytorch_for_deeplearning/advanced/prepare_models/assign4/*.pt
+pytorch_for_deeplearning/advanced/prepare_models/onnx/fruit_and_vegetable_subset/
+pytorch_for_deeplearning/advanced/prepare_models/onnx/pretrained_resnet18_weights/
+pytorch_for_deeplearning/advanced/prepare_models/onnx/fruit_veg_model.onnx
+pytorch_for_deeplearning/advanced/prepare_models/onnx/fruit_veg_tf_savedmodel/*.tflite
+pytorch_for_deeplearning/advanced/prepare_models/pruning/fruit_and_vegetable_subset/
+pytorch_for_deeplearning/advanced/prepare_models/pruning/pretrained_resnet18_weights/
+pytorch_for_deeplearning/advanced/prepare_models/pruning/*_state_dict.pth
+pytorch_for_deeplearning/advanced/prepare_models/pruning/*.pkl
+pytorch_for_deeplearning/advanced/prepare_models/quant/CIFAR10_data/
+pytorch_for_deeplearning/advanced/prepare_models/quant/blip-vqa-base-local/
+pytorch_for_deeplearning/advanced/prepare_models/quant/baseline_pretrained_model/
+pytorch_for_deeplearning/advanced/prepare_models/mlflow/CIFAR10_data/
+pytorch_for_deeplearning/advanced/prepare_models/mlflow/mlruns/
+pytorch_for_deeplearning/advanced/prepare_models/mlflow/best_model/
+pytorch_for_deeplearning/advanced/prepare_models/mlflow/mlflow.db
 
 # All zips folder (under archive)
 # pytorch_for_deeplearning/archive/zips/
